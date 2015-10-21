@@ -1,4 +1,4 @@
-command BufferClose call <SID>BufferClose()
+command! BufferClose call <SID>BufferClose()
 
 function! s:BufferClose()
 	let buffer_id = '%'
