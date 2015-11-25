@@ -8,6 +8,6 @@ function! s:BufferClose()
 	if is_last_buffer && is_empty_buffer
 		quit
 	else
-		confirm bdelete
+		confirm bwipe
 	endif
 endfunction
